@@ -8,4 +8,9 @@
         1. Records the number of rows and columns in the array   
            and how many different values in array
         2. Records the column and row of elements with different values   
-           and stored in a small array such that reducing the size of program
+           and stored in a small array such that reducing the size of program  
+
+# 2. Queue
+     A queue is an ordered list , can be implemented by array or linked list
+     (FIFO)First in first out.
+    
