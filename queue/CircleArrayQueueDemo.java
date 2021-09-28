@@ -9,11 +9,11 @@ public class CircleArrayQueueDemo {
         Scanner sc = new Scanner(System.in);
         boolean loop = true;
         while(loop){
-            System.out.println("s(show)");
-            System.out.println("e(exit)");
-            System.out.println("a(add)");
-            System.out.println("g(get / pop)");
-            System.out.println("p(peek)");
+            System.out.print("s(show): ");
+            System.out.print("e(exit): ");
+            System.out.print("a(add): ");
+            System.out.print("g(get / pop): ");
+            System.out.print("p(peek): ");
             key = sc.next().charAt(0);
             switch (key){
                 case 's':
@@ -63,7 +63,7 @@ class CircleArray {
     }
 
     public boolean isFull() {
-        return (rear  + 1) % maxSize == front;
+        return (rear  + 1) % maxSize == front; // There is always a empty space
     }
 
     public boolean isEmpty() {
