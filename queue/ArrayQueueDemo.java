@@ -82,9 +82,9 @@ class ArrayQueue{
         arr[rear] = n;
     }
 
-    public int getQueue(){
+    public int getQueue(){ //pop
         if(isEmpty()){
-            //同过抛出异常处理
+            //抛出异常处理
             throw new RuntimeException("Empty queue");
         }
         front++;
